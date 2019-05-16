@@ -12,8 +12,32 @@ body{
   margin: 0px;
 
 }
+.headings{
 
-
+  float: right;
+  font-size: 15px;
+}
+.header{
+  text-decoration:inherit;
+  color: white;
+  font-weight: 150;
+  font-size: 30px;
+  text-decoration-color: white;
+  background-color: #211545;
+  text-decoration: none;
+  font-family: courier;
+  margin-top: 40px;
+  text-align: center;
+}
+.sub-header{
+  text-decoration:inherit;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 .topnav {
   background-color:  #640B17;
   overflow: hidden;
@@ -48,6 +72,7 @@ button{
 
 .navigation {
   width: 200px;
+  float: left;
 }
 
 .mainmenu, .submenu {
@@ -99,10 +124,7 @@ button{
   border-top:1px solid #fff;
 }
 
-html, body{
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
     width: 100%;
@@ -127,10 +149,12 @@ body{
     width: 100%;
     max-width: 1200px;
     height: 430px;
-    display: flex;
+    display:inline-flex;
+    float: right;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
+    margin-top: -350px;
+
 }
 
 .container .card{
@@ -169,4 +193,9 @@ body{
     font-weight: 500;
     text-decoration: none;
     color: #3498db;
+}
+.headings{
+  margin: 17%;
+  margin-top: -680px;
+  margin-right: 150px;
 }
