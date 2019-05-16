@@ -90,6 +90,7 @@ button{
 .submenu {
   overflow: hidden;
   max-height: 0;
+
   -webkit-transition: all 0.5s ease-out;
 }
 .mainmenu li{
@@ -101,12 +102,13 @@ a{
   outline: none;
 }
 .footer-main-div{
-  position: fixed;
+
   left: 0;
-  bottom: 0;
+  height: 20%;
   width: 100%;
   background:#211545;
   color: white;
+  margin-top: 100px;
   text-align: center;
   }
 }
@@ -205,4 +207,3 @@ a{
 .footer-bottom p a:hover{
   font-weight: bolder;
 }
-
