@@ -1,0 +1,353 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.content{
+  padding: 0px 10px;
+}
+body{
+
+  background-color:white;
+}
+.logo{
+  padding:0px;
+  margin: 0px;
+
+}
+.headings{
+  font-size: 15px;
+  margin-left: 220px;
+}
+.header{
+  text-decoration:inherit;
+  color: white;
+  font-weight: 150;
+  font-size: 30px;
+  text-decoration-color: white;
+  background-color: #211545;
+  text-decoration: none;
+  font-family: courier;
+  margin-top: 40px;
+}
+.sub-header{
+  text-decoration:inherit;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+iframe{
+  width: 400px;
+  height: 300px;
+  margin: 10px 30px;
+
+}
+.topnav {
+  background-color:  #640B17;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color:#99A3A4;
+  color: black;
+}
+input#search{
+  width: 200px;
+  height: 24px;
+  margin-top: 2px;
+  margin-left: 120px;
+
+}
+button{
+  width: 60px;
+  height: 24px;
+  margin-left:0px;
+  margin-top: 2px;
+}
+
+.navigation {
+  width: 200px;
+  float: left;
+}
+
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;
+  font-family: verdana;
+  background-color: #CCC;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+.mainmenu a:hover {
+  color: black;
+  font-weight: bolder;
+  background-color:#99A3A4;
+}
+
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+
+.submenu a {
+  font-family: garamond;
+  background-color: #640B17;
+  color: white;
+  margin-left: 10px;
+}
+
+
+.submenu a:hover {
+  color: white;
+  background-color: #640B17;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+.mainmenu li{
+  border-top:1px solid #fff;
+}
+
+
+
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+}
+a{
+
+  text-decoration: none;
+
+  outline: none;
+
+}
+
+.footer-main{
+  padding-top: 10px;
+  margin-top: 1900px;
+  height: 20%;
+  width: 100%;
+  background:#211545;
+  color: white;
+  text-align: center;
+
+}
+
+.footer-social-icons{
+
+  width:100%;
+
+  height: auto;
+
+  margin: auto;
+
+}
+
+.footer-social-icons ul{
+
+  margin: 0px;
+
+  padding: 0px;
+
+  text-align: center;
+
+}
+
+.footer-social-icons ul li{
+
+  display: inline-block;
+
+  width: 50px;
+
+  height: 50px;
+
+  margin: 0px 10px;
+
+  border-radius: 100%;
+
+  background: white;
+
+}
+
+.footer-social-icons ul li a{
+
+  color: #272727;
+
+  font-size: 35px;
+
+
+
+}
+
+.footer-social-icons ul li a i{
+
+  line- height: 50px;
+
+
+
+
+
+}
+
+.footer-menu-one{
+
+  width:100%;
+
+  height:auto;
+
+  margin:auto;
+
+  margin-top: 25px;
+
+}
+
+.footer-menu-one ul{
+
+  margin: 0px;
+
+  padding:0px;
+
+  text-align: center;
+
+}
+
+.footer-menu-one ul li{
+
+  display:inline-block;
+
+  margin: 0px 15px;
+
+}
+
+.footer-menu-one ul li a{
+
+  font-family: arial;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+}
+
+.footer-menu-one ul li a:hover{
+
+  color:#32CD32;
+
+}
+
+.footer-menu-two{
+
+  width:100%;
+
+  height:auto;
+
+  margin:auto;
+
+  margin-top: 20px;
+
+}
+
+.footer-menu-two ul{
+
+  margin: 0px;
+
+  padding:0px;
+
+  text-align: center;
+
+}
+
+.footer-menu-two ul li{
+
+  display:inline-block;
+
+  margin: 0px 15px;
+
+}
+
+.footer-menu-two ul li a{
+
+  font-family: arial;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+}
+
+.footer-menu-two ul li a:hover{
+
+  color:#32CD32;
+
+}
+
+.footer-bottom{
+
+  width:100%;
+
+  height:auto;
+
+  margin:auto;
+
+  background: #640B17;
+
+  padding :5px;
+
+  text-align: center;
+
+  letter-spacing: 1px;
+
+}
+
+.footer-bottom p a{
+
+  color: #fff;
+
+}
+
+.footer-bottom p a:hover{
+
+  font-weight: bolder;
+
+}
