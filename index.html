@@ -34,9 +34,9 @@
 <Img src="https://media.studylink.com/provider/pid-mi-au-9606/logo.gif" alt="logo">
 </div>
 
-<div class="content">
-<nav class="navigation">
-     <ul class="mainmenu">
+<div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <ul class="mainmenu">
         <li><a href="http://learnline.cdu.edu.au/studyskills/index.html">Study Skill Home</a></li>
         <li><a href="http://learnline.cdu.edu.au/studyskills/studyskills/introacademicassignments.html">Academic Assignments</a>
           <ul class="submenu">
@@ -69,7 +69,18 @@
         <li><a href="http://learnline.cdu.edu.au/studyskills/studyskills/videoresources.html">Videos and Interactives</a></li>
      </ul>
   </div>
-</nav>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>    
 
 <div class="headings">
 <div class="header"> Lectures And Tutorials</div>
