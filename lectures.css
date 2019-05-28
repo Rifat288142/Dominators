@@ -19,6 +19,7 @@ body{
   color: white;
   font-weight: 150;
   font-size: 30px;
+  letter-spacing: 1.8px;
   text-decoration-color: white;
   background-color: #211545;
   text-decoration: none;
@@ -30,9 +31,13 @@ body{
   text-align: center;
   font-weight: 500;
   font-size: 25px;
+  letter-spacing: 1.8px;
   font-family: sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+.sub-header.p{
+  font-size: 24px;
 }
 .topnav {
   background-color:  #640B17;
@@ -115,6 +120,7 @@ button{
   background-color: #CCC;
   text-decoration: none;
   padding: 10px;
+  letter-spacing: 1.8px;
   color: #000;
 }
 .mainmenu a:hover {
@@ -159,6 +165,7 @@ button{
 .title{
     text-align: center;
     font-size: 40px;
+    letter-spacing: 1.8px;
     color: #6a6a6a;
     margin-top: 100px;
     font-weight: 100;
@@ -195,27 +202,17 @@ a{
 }
 
 .footer-social-icons ul{
-
-  margin: 0px;
-
-  padding: 0px;
-
+  padding:0px;
   text-align: center;
-
 }
 
 .footer-social-icons ul li{
 
   display: inline-block;
-
   width: 50px;
-
   height: 50px;
-
-  margin: 0px 10px;
-
+  margin: 13px 10px;
   border-radius: 100%;
-
   background: white;
 
 }
@@ -273,14 +270,10 @@ a{
 .footer-menu-one ul li a{
 
   font-family: arial;
-
   font-size: 14px;
-
+  letter-spacing: 1.8px;
   font-weight: 600;
-
   color: #fff;
-
-  letter-spacing: 1px;
 
   text-transform: uppercase;
 
@@ -332,7 +325,7 @@ a{
 
   color: #fff;
 
-  letter-spacing: 1px;
+  letter-spacing: 1.8px;
 
   text-transform: uppercase;
 
@@ -358,7 +351,7 @@ a{
 
   text-align: center;
 
-  letter-spacing: 1px;
+  letter-spacing: 1.8px;
 
 }
 
