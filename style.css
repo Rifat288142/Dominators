@@ -78,7 +78,7 @@ button{
   margin-top: 2px;
 }
 .sidenav {
-  height: fit-content;
+  height:auto;
   position: absolute;
   z-index: 1;
   top: 160px;
