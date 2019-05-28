@@ -16,7 +16,6 @@ body{
   font-size: 15px;
 }
 .header{
-  text-decoration:inherit;
   color: white;
   font-weight: 150;
   font-size: 30px;
@@ -25,7 +24,7 @@ body{
   background-color: #211545;
   text-decoration: none;
   font-family: courier;
-  margin-top: 40px;
+  margin-top:20px;
 }
 .sub-header{
   text-decoration:inherit;
