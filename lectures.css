@@ -19,7 +19,6 @@ body{
   color: white;
   font-weight: 150;
   font-size: 30px;
-  letter-spacing: 1.8px;
   text-decoration-color: white;
   background-color: #211545;
   text-decoration: none;
@@ -31,13 +30,9 @@ body{
   text-align: center;
   font-weight: 500;
   font-size: 25px;
-  letter-spacing: 1.8px;
   font-family: sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
-}
-.sub-header.p{
-  font-size: 24px;
 }
 .topnav {
   background-color:  #640B17;
@@ -120,7 +115,6 @@ button{
   background-color: #CCC;
   text-decoration: none;
   padding: 10px;
-  letter-spacing: 1.8px;
   color: #000;
 }
 .mainmenu a:hover {
@@ -165,19 +159,18 @@ button{
 .title{
     text-align: center;
     font-size: 40px;
-    letter-spacing: 1.8px;
     color: #6a6a6a;
     margin-top: 100px;
     font-weight: 100;
-    font-family:sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
-a {
+.back.a{
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
 }
-a:hover {
+.back.a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -185,21 +178,18 @@ a:hover {
 .Back {
   background-color: #f1f1f1;
   color: black;
-  font-weight: bolder;
 }
 
 a{
-
   text-decoration: none;
-
   outline: none;
 
 }
 
 .footer-main{
   padding-top: 10px;
-  margin-top: 1900px;
-  height: 20%;
+  margin-top: 1950px;
+  height: 30%;
   width: 100%;
   background:#211545;
   color: white;
@@ -210,175 +200,114 @@ a{
 .footer-social-icons{
 
   width:100%;
-
   height: auto;
-
   margin: auto;
-
 }
 
 .footer-social-icons ul{
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
 }
 
 .footer-social-icons ul li{
-
   display: inline-block;
   width: 50px;
   height: 50px;
   margin: 13px 10px;
   border-radius: 100%;
   background: white;
-
 }
 
 .footer-social-icons ul li a{
-
   color: #272727;
-
   font-size: 35px;
-
-
-
 }
 
 .footer-social-icons ul li a i{
-
   line- height: 50px;
-
-
-
-
-
 }
 
 .footer-menu-one{
-
   width:100%;
-
   height:auto;
-
   margin:auto;
-
   margin-top: 25px;
-
 }
 
 .footer-menu-one ul{
-
   margin: 0px;
-
   padding:0px;
-
   text-align: center;
-
 }
 
 .footer-menu-one ul li{
-
   display:inline-block;
-
   margin: 0px 15px;
-
 }
 
 .footer-menu-one ul li a{
-
   font-family: arial;
   font-size: 14px;
-  letter-spacing: 1.8px;
   font-weight: 600;
   color: #fff;
-
+  letter-spacing: 1px;
   text-transform: uppercase;
-
 }
 
 .footer-menu-one ul li a:hover{
-
   color:#32CD32;
-
 }
 
 .footer-menu-two{
-
   width:100%;
-
   height:auto;
-
   margin:auto;
-
   margin-top: 20px;
-
 }
 
 .footer-menu-two ul{
-
   margin: 0px;
-
   padding:0px;
-
   text-align: center;
-
 }
 
 .footer-menu-two ul li{
-
   display:inline-block;
-
   margin: 0px 15px;
-
 }
 
 .footer-menu-two ul li a{
-
   font-family: arial;
-
   font-size: 14px;
-
   font-weight: 600;
-
   color: #fff;
-
   letter-spacing: 1.8px;
-
   text-transform: uppercase;
-
 }
 
 .footer-menu-two ul li a:hover{
-
   color:#32CD32;
-
 }
 
 .footer-bottom{
 
   width:100%;
-
   height:auto;
-
   margin:auto;
-
   background: #640B17;
-
   padding :5px;
-
   text-align: center;
-
-  letter-spacing: 1.8px;
+  letter-spacing: 1px;
 
 }
 
 .footer-bottom p a{
-
   color: #fff;
 
 }
 
 .footer-bottom p a:hover{
-
   font-weight: bolder;
 
 }
