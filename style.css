@@ -30,16 +30,19 @@ body{
   text-decoration:inherit;
   text-align: center;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 28px;
+  letter-spacing:1.8px;
   font-family: sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 p{
-  margin-left:15px;
-  margin-righgt: 2px;
-  font-weight: 100;
-  font-style: arial;
+  margin-left:20px;
+  margin-right: 2px;
+  font-weight: 500;
+  font-style: karla;
+  font-size: 20px;
+  letter-spacing: 1.8px;
 }
 iframe{
   width:-webkit-fill-available;
@@ -179,7 +182,7 @@ button{
     color: #6a6a6a;
     margin-top: 100px;
     font-weight: 100;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 
@@ -212,11 +215,14 @@ button{
 
 .container .card h4{
     font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1.8px;
 }
 
 .container .card p{
     padding: 10 1rem;
-    font-size: 16px;
+    font-size: 20px;
+    letter-spacing: 1.8px;
     font-weight: 300;
 }
 
@@ -237,7 +243,7 @@ a{
 .footer-main{
   padding-top: 10px;
   margin-top: 1950px;
-  height: 20%;
+  height: 30%;
   width: 100%;
   background:#211545;
   color: white;
@@ -248,189 +254,114 @@ a{
 .footer-social-icons{
 
   width:100%;
-
   height: auto;
-
   margin: auto;
-
 }
 
 .footer-social-icons ul{
-
   margin: 0px;
-
   padding: 0px;
-
   text-align: center;
-
 }
 
 .footer-social-icons ul li{
-
   display: inline-block;
-
   width: 50px;
-
   height: 50px;
-
   margin: 0px 10px;
-
   border-radius: 100%;
-
   background: white;
-
 }
 
 .footer-social-icons ul li a{
-
   color: #272727;
-
   font-size: 35px;
-
-
-
 }
 
 .footer-social-icons ul li a i{
-
   line- height: 50px;
-
-
-
-
-
 }
 
 .footer-menu-one{
-
   width:100%;
-
   height:auto;
-
   margin:auto;
-
   margin-top: 25px;
-
 }
 
 .footer-menu-one ul{
-
   margin: 0px;
-
   padding:0px;
-
   text-align: center;
-
 }
 
 .footer-menu-one ul li{
-
   display:inline-block;
-
   margin: 0px 15px;
-
 }
 
 .footer-menu-one ul li a{
-
   font-family: arial;
-
   font-size: 14px;
-
   font-weight: 600;
-
   color: #fff;
-
   letter-spacing: 1px;
-
   text-transform: uppercase;
-
 }
 
 .footer-menu-one ul li a:hover{
-
   color:#32CD32;
-
 }
 
 .footer-menu-two{
-
   width:100%;
-
   height:auto;
-
   margin:auto;
-
   margin-top: 20px;
-
 }
 
 .footer-menu-two ul{
-
   margin: 0px;
-
   padding:0px;
-
   text-align: center;
-
 }
 
 .footer-menu-two ul li{
-
   display:inline-block;
-
   margin: 0px 15px;
-
 }
 
 .footer-menu-two ul li a{
-
   font-family: arial;
-
   font-size: 14px;
-
   font-weight: 600;
-
   color: #fff;
-
-  letter-spacing: 1px;
-
+  letter-spacing: 1.8px;
   text-transform: uppercase;
-
 }
 
 .footer-menu-two ul li a:hover{
-
   color:#32CD32;
-
 }
 
 .footer-bottom{
 
   width:100%;
-
   height:auto;
-
   margin:auto;
-
   background: #640B17;
-
   padding :5px;
-
   text-align: center;
-
   letter-spacing: 1px;
 
 }
 
 .footer-bottom p a{
-
   color: #fff;
 
 }
 
 .footer-bottom p a:hover{
-
   font-weight: bolder;
 
 }
