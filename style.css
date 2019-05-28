@@ -78,11 +78,10 @@ button{
   margin-top: 2px;
 }
 .sidenav {
-  height: 100%;
-  width: 0;
+  height: fit-content;
   position: absolute;
   z-index: 1;
-  top: 170px;
+  top: 160px;
   left: 0;
   background-color: white;
   overflow-x: hidden;
