@@ -61,7 +61,7 @@ iframe{
 }
 
 .topnav a:hover {
-  background-color:#99A3A4;
+  background-color:#ECF0F1;
   color: black;
 }
 input#search{
@@ -92,7 +92,7 @@ button{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: #ECF0F1;
   display: block;
   transition: 0.3s;
 }
@@ -110,7 +110,10 @@ button{
   margin-left: 50px;
   color: black;
 }
-
+.sidenav .closebtn:hover {
+  color: black;
+  font-weight: bolder;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
