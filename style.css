@@ -216,6 +216,7 @@ button{
     font-weight: 600;
     font-size: 20px;
     margin-bottom:2px;
+    text-decoration: underline;
 }
 
 .container .card p{
