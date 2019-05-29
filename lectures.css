@@ -29,12 +29,31 @@ body{
 .sub-header{
   text-decoration:inherit;
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 25px;
+  text-decoration:underline;
   font-family: sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
 }
+p{
+  margin-left: 15px;
+  margin-right: 2px;
+  margin-bottom: 20px;
+  font-style: arial;
+  line-height: 1;
+  word-break: keep-all;
+  letter-spacing: 0.6px;
+  font-size: 20px;
+}
+li{
+  font-style: courier;
+  line-height: 1;
+  word-break: keep-all;
+  letter-spacing: 0.6px;
+  font-size: 15px;
+}
+
 .topnav {
   background-color:  #640B17;
   overflow: hidden;
