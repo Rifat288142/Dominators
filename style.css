@@ -18,7 +18,7 @@ body{
 .header{
   color: white;
   font-weight: 150;
-  font-size: 30px;
+  font-size: 40px;
   text-align: inherit;
   text-decoration-color: white;
   background-color: #211545;
@@ -29,9 +29,8 @@ body{
 .sub-header{
   text-decoration:inherit;
   text-align: center;
-  font-weight: 500;
-  font-size: 28px;
-  letter-spacing:1.8px;
+  font-weight:bold;
+  font-size: 30px;
   font-family: sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -40,9 +39,9 @@ p{
   margin-left:20px;
   margin-right: 2px;
   font-weight: 500;
-  font-style: karla;
+  font-style: courier;
   font-size: 20px;
-  letter-spacing: 1.8px;
+  letter-spacing:0.8px;
 }
 iframe{
   width:-webkit-fill-available;
@@ -215,14 +214,14 @@ button{
 
 .container .card h4{
     font-weight: 600;
-    font-size: 22px;
-    letter-spacing: 1.8px;
+    font-size: 20px;
+    margin-bottom:2px;
 }
 
 .container .card p{
     padding: 10 1rem;
-    font-size: 20px;
-    letter-spacing: 1.8px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
     font-weight: 300;
 }
 
