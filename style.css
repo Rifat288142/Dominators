@@ -247,7 +247,7 @@ a{
   height: 30%;
   width: 100%;
   background:#211545;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 
 }
@@ -271,7 +271,7 @@ a{
   height: 50px;
   margin: 0px 10px;
   border-radius: 100%;
-  background: white;
+  background: #FFFFFF;
 }
 
 .footer-social-icons ul li a{
