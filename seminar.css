@@ -51,6 +51,7 @@ li{
   word-break: keep-all;
   letter-spacing: 0.6px;
   font-size: 18px;
+  margin-left: 40px;
 }
 .topnav {
   background-color:  #640B17;
@@ -174,6 +175,7 @@ button{
 }
 .mainmenu li{
   border-top:1px solid #fff;
+  margin-left: 0px;
 }
 
 
