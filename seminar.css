@@ -4,7 +4,7 @@
 }
 body{
 
-  background-color:white;
+  background-color:#FFFFFF;
   margin: 5px 1px 10px 2px;
 }
 .logo{
@@ -17,10 +17,10 @@ body{
 }
 .header{
   text-decoration:inherit;
-  color: white;
+  color: #FFFFFF;
   font-weight: 150;
   font-size: 30px;
-  text-decoration-color: white;
+  text-decoration-color: #FFFFFF;
   background-color: #211545;
   text-decoration: none;
   font-family: courier;
