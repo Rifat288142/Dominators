@@ -54,6 +54,12 @@ li{
   font-size: 18px;
   margin-left: 40px;
 }
+iframe{
+  width:-webkit-fill-available;
+  height: 300px;
+  margin: 20px 10px 10px 10px;
+
+}
 .topnav {
   background-color:  #640B17;
   overflow: hidden;
